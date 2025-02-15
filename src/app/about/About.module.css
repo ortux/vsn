@@ -1,0 +1,46 @@
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #000000, #333333);
+    color: white;
+}
+
+.header {
+    background: #0070f3;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section {
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.branch {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.2);
+}
+
+.image {
+    border-radius: 8px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-weight: bold;
+}

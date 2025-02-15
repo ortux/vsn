@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="./favicon1.ico" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <PreloaderWrapper>{children}</PreloaderWrapper>
       </body>
